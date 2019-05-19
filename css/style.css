@@ -1,0 +1,207 @@
+body {
+    margin: 0 auto;
+}
+
+.nav {
+    position: fixed;
+    overflow: hidden;
+    height: 100px;
+    width: 100%;
+    background-color: #ffe6e6; /*pink*/
+    z-index: 3;
+}
+
+.nav-bar {
+    float: right;
+    margin: 0px 15px 0px 0px;
+}
+
+.logo {
+    position: fixed;
+    height: 100px;
+    width: 120px;
+    margin: 0px 0px 0px 20px;
+}
+
+.item {
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    margin: 35px 80px 0px 0px;
+    border-radius: 6px;
+    text-align: center;
+    background-color: white; /*sakura pink*/
+    list-style-type: none;
+}
+
+.item a {
+    text-decoration: none;
+    line-height: 40px;
+}
+
+.item:hover {
+    background-color: #bfbfbf; /*gray*/
+}
+
+.item a:hover {
+    color: #ffffff; /*white*/
+}
+
+.banner {
+    background-image:url('../img/banner.png');
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: cover;
+    overflow:hidden;
+}
+
+.banner-pic {
+    height: 200px;
+    width: 100%;
+    margin: 100px 0px 0px 0px;
+}
+
+.banner-text {
+    position: relative;
+    font-family: 'Satisfy', cursive;
+    height:100px;
+    width: 200px;
+    font-size: x-large;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 150px;
+    background-color: rgb(255, 230, 230, 0.5); /*light pink*/
+    border-radius: 6px;
+}
+
+/*START OF MAIN CONTENT*/
+
+.content {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    z-index: 1;
+}
+
+.column {
+    position: absolute;
+    height: 500px;
+    width: 45%;
+    border: solid 1px black;
+    margin: 10px 0px 0px 10px;
+}
+
+.intro-two {
+    left: 50%;
+}
+
+.meguro-river {
+    height: 347px;
+    width: 508px;
+    margin: 10px 0px 0px 40px;
+    border-radius: 10px;
+}
+
+.column p {
+    padding: 5px 10px 10px 10px;
+    text-align: justify;
+}
+
+
+/*START OF FOOTER*/
+
+.footer {
+    height: 80px;
+    width: 100%;
+    background-color: #ffe6e6; /*light pink*/
+    margin: 130px 0px 0px 0px;
+    clear: right;
+}
+
+.foot-col {
+    width: 30%;
+    display: inline-block;
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+    line-height: 50%;
+}
+
+.button {
+    border-radius: 10px;
+}
+
+.sm {
+    line-height: 5px;
+    margin: 0px 0px 0px 55px;
+}
+
+.twitter, .instagram {
+    padding: 0px 0px 0px 10px;
+}
+
+/*ABOUT PAGE MAIN CONTENT*/
+
+.about-text {
+    font-family: 'Satisfy', cursive;
+    color: #ff9999; /*deep pink*/
+    margin-left: 45%;
+}
+
+.information {
+    margin: 0 auto;
+    height: 500px;
+    width: 100%;
+}
+
+.info {
+    float: left;
+    height: 600px;
+    width: 30%;
+    margin: 10px 10px 0px 30px;
+    border: solid 1px black;
+    text-align: center;
+}
+
+.home {
+    height: 231px;
+    width: 329px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.audio {
+    padding: 10px 0px 0px 0px;
+}
+
+.video {
+    padding: 10px 0px 0px 0px;
+}
+
+.sect-one, .sect-two, .sect-three {
+    display: inline-block;
+}
+
+.info p {
+    text-align: justify;
+    padding: 5px 5px 5px 5px;
+}
+
+/*CONTACT PAGE MAIN CONTENT*/
+
+.contact {
+    height: 500px;
+    width: 100%;
+}
+
+.media {
+    height: 500px;
+    width: 45%;
+    margin: 10px 5px 10px 50px;
+}
+
+.map {
+    float: right;
+}
